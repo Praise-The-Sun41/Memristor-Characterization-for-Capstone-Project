@@ -19,6 +19,8 @@ data plotting, and offline convolution simulation.
 - `memristor_measure/IV_Sweep.py`: I-V sweep measurement with configurable compliance current.
 - `memristor_measure/Fixed_V_Read.py`: fixed-voltage current monitoring.
 - `memristor_measure/modulation.py`: pulse-based LTP/LTD modulation experiment.
+- `memristor_measure/resistance_switch_retention.py`: SET/RESET resistance switching and retention test.
+- `memristor_measure/pulse_resistance_modulation.py`: pulse-by-pulse resistance modulation test.
 - `memristor_measure/bulkplot.py`: bulk plotting utility for I-V CSV results.
 - `memristor_simulation/iv_convolution_sim.py`: offline convolution simulation using measured I-V data.
 
@@ -48,6 +50,8 @@ python memristor_measure/IV_Sweep.py
 python memristor_measure/forming.py
 python memristor_measure/Fixed_V_Read.py
 python memristor_measure/modulation.py
+python memristor_measure/resistance_switch_retention.py --dev DEV-1-1
+python memristor_measure/pulse_resistance_modulation.py --dev DEV-1-1
 ```
 
 Run the offline simulation:
@@ -75,4 +79,3 @@ to be published, update `.gitignore` and add only the selected files.
 - Add device stack and fabrication notes.
 - Add example figures or selected result files.
 - Add citation or license information.
-

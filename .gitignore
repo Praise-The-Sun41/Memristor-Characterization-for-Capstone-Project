@@ -26,10 +26,11 @@ Thumbs.db
 memristor_measure/Forming/
 memristor_measure/Fixed_V_Read/
 memristor_measure/IV_sweep/
+memristor_measure/Switch_Retention/
+memristor_measure/Pulse_Modulation/
 memristor_measure/Pulse_LTP_LTD/
 memristor_measure/buffer_read/
 memristor_measure/*.png
 memristor_measure/*.pdf
 memristor_measure/*.zip
 memristor_simulation/Convolution_Sim/
-
